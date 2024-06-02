@@ -35,13 +35,24 @@ export default function Footer() {
         </li>
         <li>
           <Link
-            className="flex items-center transition-all p-1 hover:text-black hover:bg-white rounded-lg dark:hover:text-black"
+            className="flex items-center transition-all p-1 hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
             href="/blog"
           >
             <ArrowIcon />
             <p className="ml-2 h-7">Blog</p>
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="flex items-center transition-all p-1 hover:text-black hover:bg-white rounded-lg dark:hover:text-black"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="/blog"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">iletisim</p>
           </Link>
         </li>
       </ul>

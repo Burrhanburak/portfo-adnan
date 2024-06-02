@@ -72,6 +72,9 @@ const navItems = {
   "/blog": {
     name: "Blog",
   },
+  "/iletisim": {
+    name: "Iletisim",
+  },
 };
 
 export function Navbar() {
