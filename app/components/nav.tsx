@@ -117,13 +117,13 @@ export function Navbar() {
             <Link key={path} href={path}>
               <button
                 className={`text-sm transition-colors px-2 py-1 rounded-md relative ${
-                  isActive ? "text-black bg-white " : "hover:text-white"
+                  isActive ? "bg-black text-white " : "text-black "
                 }`}
               >
                 <span className="relative z-10">{name}</span>
                 {isActive && (
                   <span
-                    className="absolute inset-0 z-0 bg-white rounded-md"
+                    className="absolute inset-0 z-0 rounded-md"
                     style={{ opacity: 1 }}
                   ></span>
                 )}

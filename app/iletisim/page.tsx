@@ -4,7 +4,7 @@ import React from "react";
 const Iletisim = () => {
   return (
     <div className="w-full container mx-auto">
-      <header className="bg-white text-black dark:!bg-black dark:!text-white text-white py-4">
+      <header className="bg-white text-black py-4">
         <div className="container mx-auto">
           <h1 className="text-2xl font-bold">
             Bandırma Demir - Adnan Tezol Demir Doğrama

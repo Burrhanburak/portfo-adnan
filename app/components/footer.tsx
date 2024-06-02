@@ -24,7 +24,7 @@ export default function Footer() {
       <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
         <li>
           <Link
-            className="flex items-center transition-all p-1 hover:text-neutral-800 dark:hover:text-neutral-100"
+            className="flex items-center transition-all p-1 text-black"
             rel="noopener noreferrer"
             target="_blank"
             href="/blog"
@@ -35,7 +35,7 @@ export default function Footer() {
         </li>
         <li>
           <Link
-            className="flex items-center transition-all p-1 hover:text-neutral-800 dark:hover:text-neutral-100"
+            className="flex items-center transition-all p-1 text-black"
             rel="noopener noreferrer"
             target="_blank"
             href="/blog"
@@ -46,7 +46,7 @@ export default function Footer() {
         </li>
         <li>
           <Link
-            className="flex items-center transition-all p-1 hover:text-black hover:bg-white rounded-lg dark:hover:text-black"
+            className="flex items-center transition-all p-1 text-black"
             rel="noopener noreferrer"
             target="_blank"
             href="/blog"

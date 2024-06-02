@@ -21,7 +21,7 @@ export function BlogPosts() {
             className="flex flex-col space-y-1 mb-4"
             href={`/blog/${post.slug}`}
           >
-            <div className="relative flex flex-col mt-6 bg:white text-black dark:!bg-black dark:!text-white border shadow-md bg-clip-border rounded-xl">
+            <div className="relative flex flex-col mt-6 bg:white text-black border shadow-md bg-clip-border rounded-xl">
               <div className="p-6">
                 <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                   {post.metadata.title}
