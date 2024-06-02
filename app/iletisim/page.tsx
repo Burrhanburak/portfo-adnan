@@ -4,7 +4,7 @@ import React from "react";
 const Iletisim = () => {
   return (
     <div className="w-full container mx-auto">
-      <header className="bg-black text-white py-4">
+      <header className="bg-white text-black dark:!bg-black dark:!text-white text-white py-4">
         <div className="container mx-auto">
           <h1 className="text-2xl font-bold">
             Bandırma Demir - Adnan Tezol Demir Doğrama
@@ -38,7 +38,7 @@ const Iletisim = () => {
         </section>
       </div>
 
-      <footer className="bg-black text-white py-4">
+      <footer className="text-white py-4">
         <div className="container mx-auto text-center">
           {/* <p>&copy; 2024 Bandırma Demir - Adnan Tezol Demir Doğrama</p> */}
         </div>
