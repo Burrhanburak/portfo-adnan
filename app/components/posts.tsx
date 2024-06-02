@@ -42,7 +42,7 @@ export function BlogPosts() {
                 <Link
                   key={post.slug}
                   href={`/blog/${post.slug}`}
-                  className="align-middle select-none font-sans  bg:black text-white dark:!bg-white dark:!text-black font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+                  className="align-middle select-none font-sans bg:black text-black dark:!bg-white dark:!text-wite font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
                 >
                   Read More
                 </Link>

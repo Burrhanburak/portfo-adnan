@@ -67,10 +67,10 @@ import LogoIcon from "./LogoIcon";
 
 const navItems = {
   "/": {
-    name: "home",
+    name: "Home",
   },
   "/blog": {
-    name: "blog",
+    name: "Blog",
   },
 };
 
@@ -114,7 +114,7 @@ export function Navbar() {
             <Link key={path} href={path}>
               <button
                 className={`text-sm transition-colors px-2 py-1 rounded-md relative ${
-                  isActive ? "text-black" : "text-gray-500 hover:text-white"
+                  isActive ? "text-black bg-white " : "hover:text-white"
                 }`}
               >
                 <span className="relative z-10">{name}</span>
