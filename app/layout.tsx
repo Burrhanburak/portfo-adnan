@@ -16,8 +16,8 @@ export const metadata: Metadata = {
     template: "%s | Bandırma Demir sistemleri",
   },
   icons: [{ rel: "icon", url: Favicon.src }],
-  verification: {
-    google: "S5PQSC2OjcdxGl5CIgs_o1kC-bAdVrnJ5ORylDcs6I",
+  other: {
+    "google-site-verification": "S5PQSC2OjcdxGl5CIgs_o1kC-bAdVrnJ5ORylDcs6Ik",
   },
 
   description:
