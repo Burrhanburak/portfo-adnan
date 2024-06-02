@@ -16,6 +16,9 @@ export const metadata: Metadata = {
     template: "%s | Bandırma Demir sistemleri",
   },
   icons: [{ rel: "icon", url: Favicon.src }],
+  verification: {
+    google: "S5PQSC2OjcdxGl5CIgs_o1kC-bAdVrnJ5ORylDcs6I",
+  },
 
   description:
     "Bandırma Demir, Balıkesir ve Bandırma bölgelerinde uzmanlaşmış bir firmayız. Bahçe kapılarından çitlere, tentelerden korkuluklara, parmaklıklardan çatı sistemlerine kadar geniş bir yelpazede hizmet sunuyoruz. Müşteri memnuniyeti bizim için her zaman en önemli önceliktir.",
