@@ -89,8 +89,8 @@ export function Navbar() {
           <div className="rounded-md bg-white/6 ring-1 ring-white/10">
             <Link href="mailto:Burakozcann@proton.me">
               <svg
-                width="24"
-                height="34"
+                width="44"
+                height="24"
                 viewBox="0 0 149 126"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"

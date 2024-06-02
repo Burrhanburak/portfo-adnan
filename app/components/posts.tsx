@@ -21,7 +21,7 @@ export function BlogPosts() {
             className="flex flex-col space-y-1 mb-4"
             href={`/blog/${post.slug}`}
           >
-            <div className="relative flex flex-col mt-6 text-white bg-transparent border shadow-md bg-clip-border rounded-xl">
+            <div className="relative flex flex-col mt-6 bg:white text-black dark:!bg-black dark:!text-white border shadow-md bg-clip-border rounded-xl">
               <div className="p-6">
                 <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                   {post.metadata.title}
@@ -42,7 +42,7 @@ export function BlogPosts() {
                 <Link
                   key={post.slug}
                   href={`/blog/${post.slug}`}
-                  className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-white text-black shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+                  className="align-middle select-none font-sans  bg:black text-white dark:!bg-white dark:!text-black font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
                 >
                   Read More
                 </Link>
