@@ -25,9 +25,7 @@ export default function Footer() {
         <li>
           <Link
             className="flex items-center transition-all p-1 text-black"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="/blog"
+            href="/"
           >
             <ArrowIcon />
             <p className="ml-2 h-7">Home</p>
@@ -36,8 +34,6 @@ export default function Footer() {
         <li>
           <Link
             className="flex items-center transition-all p-1 text-black"
-            rel="noopener noreferrer"
-            target="_blank"
             href="/blog"
           >
             <ArrowIcon />
@@ -47,9 +43,7 @@ export default function Footer() {
         <li>
           <Link
             className="flex items-center transition-all p-1 text-black"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="/blog"
+            href="/iletisim"
           >
             <ArrowIcon />
             <p className="ml-2 h-7">iletisim</p>
