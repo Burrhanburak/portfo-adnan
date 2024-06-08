@@ -12,16 +12,19 @@ import Favicon from "/public/favicon.ico";
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "Bandırma Demir - Kaynak ve Demir Doğrama Hizmetleri",
-    template: "%s | Bandırma Demir sistemleri",
+    default: "Bandırma Demir Çelik- Kaynak - Demir ve Çelik Doğrama Hizmetleri",
+    template: "%s | Bandırma Demir Çelik",
   },
-  icons: [{ rel: "icon", url: Favicon.src }],
+
+  icons: {
+    icon: "/favicon.ico", // /public path
+  },
   other: {
     "google-site-verification": "S5PQSC2OjcdxGl5CIgs_o1kC-bAdVrnJ5ORylDcs6Ik",
   },
 
   description:
-    "Bandırma Demir, Balıkesir ve Bandırma bölgelerinde uzmanlaşmış bir firmayız. Bahçe kapılarından çitlere, tentelerden korkuluklara, parmaklıklardan çatı sistemlerine kadar geniş bir yelpazede hizmet sunuyoruz. Müşteri memnuniyeti bizim için her zaman en önemli önceliktir.",
+    "Bandırma Demir Çelik, Balıkesir ve Bandırma bölgelerinde uzmanlaşmış bir firmayız. Bahçe kapılarından çitlere, tentelerden korkuluklara, parmaklıklardan çatı sistemlerine kadar geniş bir yelpazede hizmet sunuyoruz. Müşteri memnuniyeti bizim için her zaman en önemli önceliktir.",
   openGraph: {
     title: "Bandırma Demir - Kaynak ve Demir Doğrama Hizmetleri",
     description: "This is Bandırma Demir - Kaynak ve Demir Doğrama Hizmetleri.",

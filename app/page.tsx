@@ -2,10 +2,11 @@ import { BlogPosts } from "app/components/posts";
 import Gallery from "./components/gallery";
 
 const images = [
-  "/demir-dograma.png",
-  "/3.png",
-  "/6.jpeg",
   "/4.jpeg",
+  "/3.png",
+  "/demir-dograma.png",
+  "/6.jpeg",
+
   "/5.jpeg",
 ];
 
@@ -24,6 +25,15 @@ export default function Page() {
             sunuyoruz. Müşteri memnuniyeti bizim için her zaman en önemli
             önceliktir.{" "}
           </p>
+        </p>
+        <h2 className="mb-8 text-2xl font-semibold tracking-tighter">
+          Bandırma Demir Çelik - Kaynak - Demir ve Çelik Doğrama Hizmetleri
+        </h2>
+
+        <p>
+          Bandırma da Demir Çelik konusunda lider olan Bandırma Demir,
+          kaynak,Demir doğrama hizmetleri vermektedir. Bandırma Demir Çelik
+          konusunda güven kazanan bandırma demir hizmetinizde.
         </p>
         <div className="grid min-h-[140px] w-full items-center rounded-lg p-2 lg:overflow-visible">
           <Gallery images={images} />

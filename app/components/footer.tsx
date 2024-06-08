@@ -49,6 +49,15 @@ export default function Footer() {
             <p className="ml-2 h-7">iletisim</p>
           </Link>
         </li>
+        <li>
+          <Link
+            className="flex items-center transition-all p-1 text-black"
+            href="/about"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">Hakkımızda</p>
+          </Link>
+        </li>
       </ul>
       <div className="flex items-center justify-center mt-8 space-x-4">
         <Link href="/" rel="noopener noreferrer">

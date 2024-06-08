@@ -75,6 +75,9 @@ const navItems = {
   "/iletisim": {
     name: "Iletisim",
   },
+  "/about": {
+    name: "hakkımızda",
+  },
 };
 
 export function Navbar() {
